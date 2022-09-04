@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Blog</title>
+
+
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body{
+      height: 100vh;
+    }
+    header{
+      text-align: center;
+      background-color: black;
+      color: white;
+      padding: 30px;
+      font-size: 36px;
+    }
+
+    nav{
+      text-align: center;
+      background-color: purple;
+      color: white;
+      width: 300px;
+      height: 85%;
+      float: left;
+    }
+
+    aside{
+            text-align: center;
+      background-color: green;
+      color: white;
+      width: 300px;
+      height: 85%;
+      float: right;
+    }
+
+    main{
+      width: 50%;
+    }
+
+    .clearfix::after{
+      content: '';
+      clear: both;
+      display: block;
+    }
+
+    footer{
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+
+  </style>
+</head>
+<body>
+  
+
+  <header> My Blog</header>
+  <nav> My Navigation </nav>
+  <aside> My Aside</aside>
+  <main class="clearfix"> My content</main>
+
+  <footer> Copy Rights @2022</footer>
+</body>
+</html>

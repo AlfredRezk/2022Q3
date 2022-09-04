@@ -1,0 +1,48 @@
+/* 
+1. color names   e.g red, green, yellow 
+2. RGB values    short for Red Green Blue 
+3. HEX values    
+4. HSL values   Hue Saturation Lighting 
+5. RGBA values  RGB with Alpha 
+6. HSLA values  HSL with Alpha 
+*/
+
+/* color names */
+h1{
+  color:red;
+}
+
+/* RGB */
+h1{
+  color: rgb(255,0,0);
+}
+
+/* Hex */
+/* 0-F  0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F,10 */
+/* 00- FF */
+/* 000- FFF */
+h1{
+  
+  color: #F00;
+  color: #000;
+  color: #fff;
+  color: #ff0000;
+  color: #ff0;
+  color: rgb(255, 255, 0);
+}
+
+/* HSL  */
+h1{
+  color:hsl(60, 100%, 50%);
+  color: hsl(240, 100%, 50%);
+  color: hsl(0, 100%, 50%);
+}
+
+/* rgba */
+/* Alpha value 0 (fully transparent) -1 (not transparent )  */
+h1{
+  color: rgba(255,0,0,0.5);
+}
+h1{
+  color: hsla(0, 100%, 50%, 0.5)
+}

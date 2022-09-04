@@ -1,0 +1,23 @@
+h1{
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+}
+
+div{
+  background-color: lightgray;
+}
+
+h2{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  font-size: 16px;
+}
+
+img{
+  display: block;
+  margin: auto;
+}

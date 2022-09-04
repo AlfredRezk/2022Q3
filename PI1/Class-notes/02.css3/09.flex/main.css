@@ -1,0 +1,50 @@
+.container{
+
+  /* justify-content => across main axis */
+  /* align-items => across sec. axis */
+  border: 2px solid red;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: flex-start;
+  justify-content: flex-end;
+  justify-content: space-between;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: stretch;
+  align-items: center;
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: baseline;
+  flex-wrap: nowrap;
+
+  height: 300px;
+  width: 75%;
+  margin: 50px auto;
+  /* flex-flow: row wrap; */
+}
+.item{
+  border: 2px solid dodgerblue;
+  padding: 5px;
+  background-color: lightblue;
+  width:20%;
+  flex-grow: 1;
+}
+
+
+#item1{
+  /* order:4; */
+  /* flex-shrink: 3; */
+  flex-grow: 4;
+}
+#item3{
+  /* align-self: center; */
+  /* order:2; */
+ 
+}
+
+#item5{
+  /* order:3; */
+  /* flex-basis: 100px;
+  width: 100px; */
+}
