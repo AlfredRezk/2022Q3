@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation */
+nav{
+  padding: 0.75rem;
+  background-color: rgba(0,0,0,0.8);
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+}
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .container a{
+  color: #ccc;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+nav .container a i.fa-apple{
+  font-size: 20px;
+}
+
+/* Header  */
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  margin-top: 4rem;
+
+}
+
+header img{
+  width: 120px;
+}
+
+header a{
+  color: #2179D2;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-size: 14px;
+}
+header a:hover{
+  text-decoration: underline;
+}
+
+/* Hero section iphone pro 14 */
+section.dark, section.light{
+  text-decoration: none;
+  height: 75%;
+  display: block;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+section.dark{
+    color: white;
+}
+
+section.light{
+  color: #1D1D1F;
+}
+
+#iphone-14-1{
+    background-image: url('../imgs/hero.jpg');
+}
+#iphone-14-2{
+      background-image: url('../imgs/hero_2.jpg');
+}
+
+ h1,h2, h3,div {
+  text-align: center;
+}
+
+ h1{
+  padding-top: 4rem;
+  font-size: 47px;
+}
+ h2{
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+ h3{
+  font-weight: 400;
+  color: #85858A;
+  margin-bottom: 1rem;
+}
+
+ div a{
+  color: #2179D2;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 1rem;
+}
+
+ div a:hover{
+  text-decoration: underline;
+}
+
+.light h3{
+  margin: 0.25rem;
+}
+
+.light div{
+  margin-top: 1rem;
+}
+
+ div a i{
+  font-size: 14px;
+  font-weight: 100;
+}
+
+#airpods{
+    background-image: url('../imgs/hero_airpods.jpg');
+}
