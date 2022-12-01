@@ -1,0 +1,22 @@
+@import url('../node_modules/bootstrap/dist/css/bootstrap.css');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.navbar-brand img{
+  height: 35px;
+}
+
+.like-btn{
+  color: dodgerblue;
+}
+
+.dislike-btn, .delete-btn{
+  color: red;
+}
+
+.comment-btn{
+  color: green;
+}
+
+.edit-btn{
+  color: goldenrod;
+}
