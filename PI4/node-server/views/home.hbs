@@ -1,0 +1,20 @@
+{{#if products}}
+<div class="row">
+{{#each products}}
+  <div class="col-12 col-md-4 col-md-3">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src={{imageUrl}} alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{title}}</h5>
+        <p class="card-text">{{description}}</p>
+        <p class="card-text"> $<b>{{price}}</b></p>
+        <a href="#" class="btn btn-primary"> Add To cart</a>
+      </div>
+    </div>
+  </div>
+
+{{/each}}
+</div>
+{{else}}
+<h3 class="text-center">  No Products</h3>
+{{/if}}
